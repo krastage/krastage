@@ -1,15 +1,33 @@
+```tsx
+import { FC } from 'react';
 
-# Hello, my name is Marat!
+const Krastage: FC = (): JSX.Element => {
+  const firstName: string = 'Marat';
+  const lastName: string = 'Tureev';
+  const age: number = 29;
+  const languages: string[] = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Java'];
+  const technologies: string[] = ['React', 'Redux', 'webpack', 'npm', 'vite', 'Git'];
 
-### About Me:
+  return (
+    <>
+      <div>
+        <h1>{firstName}</h1>
+        <h1>{lastName}</h1>
+        <h1>{age}</h1>
+        <h1>{languages}</h1>
+        <h1>{technologies}</h1>
+      </div>
+    </>
+  );
+};
 
-I am a novice web developer.  
-My journey into IT began with technical support at "Geonavigation LLC", where I worked for about 1.5 years. However, I didn't stop there and started delving into programming languages.  
-The first truly serious language I encountered was Java, and I worked with the IntelliJ IDEA development environment. During my learning process, I became familiar with Object-Oriented Programming (OOP) as well as important methodologies like SOLID, DRY, and KISS. With this knowledge, I got a job and worked for some time at "NAUMEN", also providing product support, but later decided to make a 360-degree shift in my technological stack.  
-My further goal was to learn frontend development. I studied the basic syntax of HTML markup, CSS styles, and also got acquainted with BEM and the Webpack project bundler. Currently, I am developing websites of various complexity levels. My projects involve the use of HTML, CSS (including SCSS and SASS), JavaScript (or TypeScript) in conjunction with the React library or Vanilla JS. I use npm and yarn as tools for managing dependencies and project building.
+export default Krastage;
+```
+
+---
 
 <details>
-<summary>Обо мне</summary>
+<summary>Info</summary>
   
 Я начинающий веб-разработчик.  
 Мой путь в мир IT начался с работы в технической поддержке ООО "Геонавигация", где я проработал около 1,5 лет. Однако я не стал останавливаться на этом и начал изучать языки программирования.  
@@ -18,25 +36,7 @@ My further goal was to learn frontend development. I studied the basic syntax of
   
 </details>
 
----
-
-### Technologies:
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,redux,webpack,vite,java)](https://skillicons.dev)
-
----
-
-### Tools:
-
-[![My Skills](https://skillicons.dev/icons?i=vscode,idea,figma,ps,git,github)](https://skillicons.dev)
-
----
-
-### Contact Me:
-
 <p align="left">
 <a href="https://t.me/krastage" target="blank"><img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="krastage" />
 <a href="mailto:tureev777@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:tureev777@gmail.com" alt="tureev marat"  />
 </p>
-
-[![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Krastage&layout=compact&theme=dark&show_icons=true)](https://github.com/Krastage)
