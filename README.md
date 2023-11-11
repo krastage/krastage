@@ -1,7 +1,5 @@
 ```tsx
-import { FC } from 'react';
-
-const Krastage: FC = (): JSX.Element => {
+const Krastage = () => {
   const firstName: string = 'Marat';
   const lastName: string = 'Tureev';
   const age: number = 29;
