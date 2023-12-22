@@ -1,25 +1,21 @@
 ```tsx
-const Krastage = () => {
+export default function Krastage(): JSX.Element {
   const firstName: string = 'Marat';
   const lastName: string = 'Tureev';
   const age: number = 29;
-  const languages: string[] = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Java'];
-  const technologies: string[] = ['React', 'Redux', 'webpack', 'npm', 'vite', 'Git'];
+  const languages: string[] = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Java', 'SQL'];
+  const technologies: string[] = ['React', 'Next.js', 'redux', 'zustand', 'webpack', 'npm', 'vite', 'git'];
 
   return (
     <>
-      <div>
-        <h1>{firstName}</h1>
-        <h1>{lastName}</h1>
-        <h1>{age}</h1>
-        <h1>{languages}</h1>
-        <h1>{technologies}</h1>
-      </div>
+      <h1>{firstName}</h1>
+      <h1>{lastName}</h1>
+      <h1>{age}</h1>
+      <h1>Languages: {languages.join(', ')}</h1>
+      <h1>Technologies: {technologies.join(', ')}</h1>
     </>
   );
 };
-
-export default Krastage;
 ```
 
 ---
