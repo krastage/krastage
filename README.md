@@ -4,7 +4,7 @@ export default function Krastage(): JSX.Element {
   const lastName: string = 'Tureev';
   const age: number = 29;
   const languages: string[] = ['HTML', 'CSS', 'SCSS', 'JavaScript', 'TypeScript', 'Java', 'SQL'];
-  const technologies: string[] = ['React', 'Next.js', 'redux', 'zustand', 'webpack', 'npm', 'vite', 'git'];
+  const technologies: string[] = ['React', 'redux', 'zustand', 'webpack', 'npm', 'vite', 'git'];
 
   return (
     <>
